@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  githubvps:
+    image: githubvps
+    build:
+      context: .
+      dockerfile: ./Dockerfile
